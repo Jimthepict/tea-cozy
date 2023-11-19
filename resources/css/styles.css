@@ -1,0 +1,186 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    
+}
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*-----------Start of Header------------*/
+
+/*Header container*/
+.header-container {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*Class for logo image*/
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* header menu container*/
+.menu {
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+/*li items in list for menu buttons*/
+.menu-button {
+    margin-right: 30px;
+    text-decoration: underline;
+}
+
+/*-----------End of Header------------*/
+
+
+/*-----------Start of Hero Section------------*/
+.hero-container {
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    top: 69px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.img-hero {
+    width: 1200px;
+    height: 700px;
+}
+
+.mission {
+    top: 270px;
+    position: absolute;
+    text-align: center;
+    width: 1200px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 1rem;
+    
+}
+
+h4 {
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+h5 {
+    font-size: 0.6rem;
+}
+
+
+/*-----------End of Hero Section------------*/
+
+/*-----------Start of Main Section------------*/
+
+.tea-of-month {
+    position: relative;
+    top: 69px;
+    width: 1000px;
+    text-align: center;
+    margin: 60px auto;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.tea-month-items {
+    width: 1000px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.tea {
+    width: 300px;
+    margin: 0px 30px 10px 0px;
+}
+
+
+
+/*-----------End of Main Section------------*/
+
+/*-----------Start of Address Section------------*/
+.address-container {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 69px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-size: 1200px 725px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+/*.img-address {
+    width: 1200px;
+    height: 500px;
+}*/
+
+.address-card {
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.address {
+    opacity: 1;
+    background-color: black;
+    margin-right: 40px;
+    width: 300px;
+    height: 300px;
+    padding: 30px 0px;
+    line-height: 2rem;
+}
+
+.h2-locations {
+    padding-top: 20px;
+}
+
+.footer-container {
+    position: relative;
+    top: 69px;
+    text-align: center;
+}
+
+.contact {
+    height: 200px;
+    line-height: 2rem;
+}
+
+.copyright {
+    text-align: left;
+    margin: 0px 0px 30px 20px;
+}
